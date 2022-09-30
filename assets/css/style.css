@@ -30,9 +30,35 @@ h1, h2 {
 #trans-logo {
     float: left;
     width: 200px;
+    padding-left: 15px;
+    padding-top: 15px;
 }
 
+/* Navigation Links */
 
+#menu {
+    font-size: 150%;
+    letter-spacing: 2px;
+}
 
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 15px;
+    margin-top: 30px;
+}
 
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
 
+#menu a:hover {
+    border: 2px solid rgb(321, 1, 1);
+    border-radius: 10%;
+}
+
+.active {
+    border: 2px solid #123;
+    border-radius: 10%;
+}
