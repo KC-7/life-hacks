@@ -9,7 +9,8 @@
 body {
     font-family: 'Noto Sans', sans-serif;
     font-weight: 300;
-    color: #123;
+    color: whitesmoke;
+    background-color: #123;
 }
 
 /* Headings & Logo */
