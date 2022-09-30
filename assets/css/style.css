@@ -18,8 +18,15 @@ body {
 h1, h2 {
     font-family: 'Patrick Hand', cursive;
     text-transform: uppercase;
-    color: rgb(321, 1, 1);
+    color: whitesmoke;
     letter-spacing: 5px;
+}
+
+h3, h4 {
+    font-family: 'Patrick Hand', cursive;
+    text-transform: uppercase;
+    color: whitesmoke;
+    letter-spacing: 3px;
 }
 
     /* Below text-logo not currently in use */
@@ -54,7 +61,7 @@ h1, h2 {
 }
 
 #menu a:hover {
-    border: 2px solid rgb(321, 1, 1);
+    border: 2px solid rgb(250, 30, 30);
     border-top-left-radius: 10%;
     border-bottom-right-radius: 10%;
     border-block-width: 110%;
@@ -112,7 +119,7 @@ h1, h2 {
     padding-top: 50px;
     padding-left: 15px;
 
-    background-color: rgba(253, 157, 31, 0.6);
+    background-color: rgba(250, 30, 30, 0.6);
 
     bottom: 50px;
     left: 100px;
@@ -131,20 +138,55 @@ h1, h2 {
     padding-top: 30px;
     width: 33%;
     float: left;
-    background-color: purple;
+    background-color: rgba(253, 157, 31, 0.6);
 }
 
 #right-example {
     padding-top: 30px;
     width: 33%;
     float: right;
-    background-color: hotpink;
+    background-color: rgba(253, 157, 31, 0.6);
 }
 
 #center-example {
     padding-top: 30px;
-    width: 33%;
+    width: 450px;
     margin: 0 auto;
-    background-color: green;
+    background-color: rgba(253, 157, 31, 0.6);
 }
 
+hr {
+    border-top: 1px solid whitesmoke;
+}
+
+#left-example-content {
+    width: 66%;
+    line-height: 33px;
+    clear: both;
+    margin-bottom: 50px;
+    float: right;
+    text-align: center;
+}
+
+#right-example-content {
+    width: 66%;
+    line-height: 33px;
+    clear: both;
+    margin-bottom: 50px;
+    float: left;
+    text-align: center;
+}
+
+#center-example-content {
+    
+    line-height: 33px;
+    clear: both;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+#examples-heading {
+    text-align: center;
+    margin: 25px;
+    font-size: 333%;
+}
