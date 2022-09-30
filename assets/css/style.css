@@ -30,8 +30,7 @@ h1, h2 {
 #trans-logo {
     float: left;
     width: 200px;
-    padding-left: 15px;
-    padding-top: 15px;
+    padding: 15px;
 }
 
 /* Navigation Links */
@@ -45,7 +44,7 @@ h1, h2 {
     float: right;
     list-style-type: none;
     margin-right: 15px;
-    margin-top: 30px;
+    margin-top: 33px;
 }
 
 #menu a {
@@ -61,4 +60,33 @@ h1, h2 {
 .active {
     border: 2px solid #123;
     border-radius: 10%;
+}
+
+/* Hero Image */
+
+#hero-outer {
+    height: 555px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#hero-image {
+    height: 555px;
+    width: 100%;
+    background: url(../images/gallery/lightbulb2.jpg) no-repeat center center;
+
+    /* Hero Zoom Animation */
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+/* Hero Image Animation */
+@keyframes hero-zoom {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.25);
+    }
 }
