@@ -119,3 +119,32 @@ h1, h2 {
 
     position: absolute;
 }
+
+/* Life Hack Examples */
+
+#life-hack-examples {
+    height: 600px;
+
+}
+
+#left-example {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+    background-color: purple;
+}
+
+#right-example {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+    background-color: hotpink;
+}
+
+#center-example {
+    padding-top: 30px;
+    width: 33%;
+    margin: 0 auto;
+    background-color: green;
+}
+
