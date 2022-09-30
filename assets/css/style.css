@@ -9,9 +9,30 @@
 body {
     font-family: 'Noto Sans', sans-serif;
     font-weight: 300;
+    color: #123;
 }
 
-h1 {
+/* Headings & Logo */
+
+h1, h2 {
     font-family: 'Permanent Marker', cursive;
+    text-transform: uppercase;
     font-weight: 300;
+    color: rgb(321, 1, 1);
+    letter-spacing: 5px;
 }
+
+#text-logo {
+    float: left;
+    font-size: 250%;
+}
+
+#trans-logo {
+    float: left;
+    width: 200px;
+}
+
+
+
+
+
