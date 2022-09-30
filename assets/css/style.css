@@ -55,12 +55,15 @@ h1, h2 {
 
 #menu a:hover {
     border: 2px solid rgb(321, 1, 1);
-    border-radius: 10%;
+    border-top-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    border-block-width: 110%;
 }
 
 .active {
-    border: 2px solid #123;
-    border-radius: 10%;
+    border: 2px solid gray;
+    border-top-left-radius: 10%;
+    border-bottom-right-radius: 10%;
 }
 
 /* Hero Image & Hero Text */
