@@ -187,7 +187,7 @@ hr {
     text-align: center;
 }
 
-#examples-heading {
+.examples-heading {
     text-align: center;
     margin: 25px;
     font-size: 333%;
@@ -212,8 +212,26 @@ hr {
     float: left;
     padding: 30px 0 0 10px;
     text-align: center;
-    border: 2px solid #123;
+    border: 1px solid #123;
     box-sizing: border-box;
+
+    /*Example Div Zoom Animation */
+    animation-name: example-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+#example div:hover {
+    color: rgb(250, 30, 30);
+     /* Example Div Zoom Animation */
+    @keyframes example-zoom {
+        from {
+            transform: scale(1);
+        }
+        to {
+            transform: scale(1.25);
+        }
+    }
 }
 
 #example h2 {
