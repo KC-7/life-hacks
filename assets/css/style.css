@@ -127,6 +127,14 @@ h3, h4 {
     position: absolute;
 }
 
+/* About Us Section */
+
+#about {
+    text-align: center;
+    padding: 50px 10px;
+}
+
+
 /* Life Hack Examples */
 
 #life-hack-examples {
@@ -193,9 +201,9 @@ hr {
     font-size: 333%;
 }
 
-/* example section */
+/* Why sign up section */
 
-#example {
+#why {
     background-image: url("../images/gallery/lightbulb.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -204,37 +212,24 @@ hr {
     overflow: hidden;
 }
 
-#example div {
+#why div {
     color: whitesmoke;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(250, 30, 30, 0.6);
     width: 20%;
     height: 300px;
     float: left;
-    padding: 30px 0 0 10px;
+    padding: 30px 10px;
     text-align: center;
+    line-height: 30px;
     border: 1px solid #123;
     box-sizing: border-box;
-
-    /*Example Div Zoom Animation */
-    animation-name: example-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
 }
 
-#example div:hover {
-    color: rgb(250, 30, 30);
-     /* Example Div Zoom Animation */
-    @keyframes example-zoom {
-        from {
-            transform: scale(1);
-        }
-        to {
-            transform: scale(1.25);
-        }
-    }
+#why div:hover {
+    font-weight: bold;
 }
 
-#example h2 {
+#why h2 {
     color: whitesmoke;
 }
 
