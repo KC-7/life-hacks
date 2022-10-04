@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&family=Patrick+Hand&display=swap');
 
+
 * {
     margin: 0;
     padding: 0;
@@ -12,6 +13,7 @@ body {
     color: whitesmoke;
     background-color: #123;
 }
+
 
 /* Headings & Logo */
 
@@ -47,6 +49,10 @@ h3, h4 {
     padding: 15px 15px 15px 30px;
 }
 
+hr {
+    border-top: 1px solid whitesmoke;
+}
+
 /* Navigation Links */
 
 #menu {
@@ -79,10 +85,11 @@ h3, h4 {
     border-bottom-right-radius: 10%;
 }
 
+
 /* Hero Image & Hero Text */
 
 #hero-outer {
-    height: 555px;
+    height: 750px;
     width: 100%;
     overflow: hidden;
 
@@ -94,7 +101,7 @@ h3, h4 {
 }
 
 #hero-image {
-    height: 555px;
+    height: 750px;
     width: 100%;
     background: url(../images/gallery/lightbulb2.jpg) no-repeat center center;
 
@@ -113,6 +120,7 @@ h3, h4 {
         transform: scale(1.25);
     }
 }
+
 
 #cover-text {
     font-size: 150%;
@@ -133,6 +141,7 @@ h3, h4 {
     position: absolute;
 }
 
+
 /* About Us Section */
 
 #about {
@@ -140,31 +149,30 @@ h3, h4 {
     padding: 50px 10px;
 }
 
-                    /* BELOW NOT WORKING */
-
-#about-paragraph {
+#about p {
     font-size: 200%;
-    padding: 100px;
+    font-family: 'Noto Sans', sans-serif;
+    padding: 50px 10px;
 }
+
 
 /* Hack Examples Section */
 
-hr {
-    border-top: 1px solid whitesmoke;
-}
 
-#hack-examples {
+#life-hack-examples {
     background-color: #123;
-    width: 100%;
-    height: 600px;
-    overflow: hidden;
 }
 
-#hack-examples div {
+
+#life-hack-examples h2 {
+    padding: 50px 10px;
+}
+
+#life-hack-examples div {
     color: whitesmoke;
     background-color: rgba(250, 30, 30, 0.6);
     width: 33%;
-    height: 100%;
+    height: 600px;
     float: left;
     padding: 30px 10px;
     text-align: center;
@@ -174,13 +182,10 @@ hr {
     box-sizing: border-box;
 }
 
-#hack-examples div:hover {
+#life-hack-examples div:hover {
     font-weight: bold;
 }
 
-#hack-examples h2 {
-    color: whitesmoke;
-}
 
 /* Why sign up section */
 
@@ -205,14 +210,19 @@ hr {
     border: 1px solid #123;
     box-sizing: border-box;
 }
+    /* Not in use 
+    #why-heading {
+        margin-top: 100px;
+    } */
+
+#why div h3 {
+    font-size: x-large;
+}
 
 #why div:hover {
     font-weight: bold;
 }
 
-#why h2 {
-    color: whitesmoke;
-}
 
 /* footer */
 
@@ -220,18 +230,27 @@ footer {
     height: 150px;
 }
 
-#footer-social {
+#social-heading {
     float: left;
-    padding: 25px 150px;
-    font-size: xx-large;
 }
 
-#footer-apps {
-    float: right;
-    padding: 25px 150px;
-    font-size: xx-large;
+.social-networks {
+    text-align: left;
 }
 
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 300%;
+    margin: 1%;
+    color: whitesmoke;
+}
+
+#app-heading {
+    float: left;
+}
 .app-downloads {
     text-align: center;
 }
@@ -241,23 +260,8 @@ footer {
 }
 
 .app-downloads i {
-    font-size: 350%;
+    font-size: 300%;
     margin: 1%;
-    padding: 5%;
-    color: whitesmoke;
-}
-
-.social-networks {
-    text-align: center;
-}
-
-.social-networks > li {
-    display: inline;
-}
-
-.social-networks i {
-    font-size: 250%;
-    margin: 1%;
-    padding: 5%;
+    padding: 5% 0%;
     color: whitesmoke;
 }
